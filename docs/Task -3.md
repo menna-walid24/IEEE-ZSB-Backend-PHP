@@ -1,4 +1,5 @@
 **1-Namespace**
+
        Namespace is used to distinguish between classes with the same name but in different folders 
            
 ```
