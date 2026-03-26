@@ -1,6 +1,6 @@
 **1-Namespace**
 
-       Namespace is used to distinguish between classes with the same name but in different folders 
+Namespace is used to distinguish between classes with the same name but in different folders 
            
 ```
 namespace core\Middleware;
@@ -53,7 +53,7 @@ use core\Middleware\Auth;
 
 }
 ```
- This means if user hasn't logged in redirect him to login bage
+ This means if user hasn't logged in redirect him to login page
 
  
  
