@@ -34,6 +34,13 @@ function view($path,$attributes=[]){
     extract($attributes);
 require base_path('Views/' . $path);
 }
+function redirect($path){
+      header("location: {$path}");
+    exit();
+}
+function old($key,$defualt=''){
+core\Session::get('old')[$key]??' ';
+}
 function login($user) {
     $_SESSION['user'] = [
         'id' => $user['id'],      

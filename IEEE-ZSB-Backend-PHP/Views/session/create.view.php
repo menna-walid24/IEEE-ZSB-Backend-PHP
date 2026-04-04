@@ -12,11 +12,11 @@ require base_path('Views/partials/nav.php');
 
         <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
           
-            <form action="/session" method="POST" class="space-y-6">
+            <form action="/login" method="POST" class="space-y-6">
                 
                
                 <div>
-                    <label for="email" class="block text-sm/6 font-medium text-gray-900">Email address</label>
+                    <label for="email" class="block text-sm/6 font-medium text-gray-900" valur="<?=old('email',$uset['email'])?>">Email address</label>
                     <div class="mt-2">
                         <input id="email" name="email" type="email" value="<?= $_POST['email'] ?? '' ?>" required autocomplete="email" 
                                class="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6" />
