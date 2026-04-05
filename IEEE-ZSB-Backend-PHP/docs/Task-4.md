@@ -5,7 +5,6 @@ extract validation details from controllers and create a new class called "login
 ,contains all login validation details.
 
 
-![[Pasted image 20260405004132.png]]
 First create array of errors
 `protected $errors=[];`
 Then, Constructor that validate and password if new login happend
