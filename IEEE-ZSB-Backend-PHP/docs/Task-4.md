@@ -94,4 +94,6 @@ throw $instance;
 ```
 ---
 **4-compser**
-Composer mange developers to install packages and autoload classes.
+Composer:
+
+mange developers to install packages and autoload classes.
