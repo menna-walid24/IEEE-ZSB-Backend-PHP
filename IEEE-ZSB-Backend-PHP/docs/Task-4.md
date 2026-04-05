@@ -8,7 +8,7 @@ extract validation details from controllers and create a new class called "login
 First create array of errors
 `protected $errors=[];`
 Then, Constructor that validate and password if new login happend
-if there is error ,it will return that an  error ocurred
+if there is error ,it will return that an  error has been ocurred
 ```
 public  function __construct(public array $attributes){
 
