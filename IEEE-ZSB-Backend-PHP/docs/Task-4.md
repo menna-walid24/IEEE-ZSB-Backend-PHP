@@ -1,6 +1,10 @@
 **Extract a Form Validation Object**
+
+
 extract validation details from controllers and create a new class called "loginFom"
 ,contains all login validation details.
+
+
 ![[Pasted image 20260405004132.png]]
 First create array of errors
 `protected $errors=[];`
@@ -24,6 +28,8 @@ if (!validator::string($attributes['password'])) {
 }
 ```
 Create object:
+
+
 ```
 public  static function validate($attributes){
 
@@ -36,6 +42,8 @@ return $instance;
 
 }
 ```
+
+
 Count errors:
 ```
 public function failed(){
@@ -43,6 +51,8 @@ public function failed(){
 
 }
 ```
+
+
 Return all errors:
 ```
 public function errors(){
@@ -53,14 +63,28 @@ public function errors(){
 ```
 ***
 **2-The PRG Pattern**
+
+
 Stands for:Post Redirect Get
-It prevents duplicate requestsز
+
+
+It prevents duplicate requests
+
+
 ` return redirect($router->previousUrl());`
 ***
 **3-validation exception**
+
+
 Inherts exception class.It contains errors,old data .
+
+
 function throw:
+
+
 if there is an error,exception ocurr.
+
+
 ```
 public static function throw($errors,$old){
 $instance=new static;
