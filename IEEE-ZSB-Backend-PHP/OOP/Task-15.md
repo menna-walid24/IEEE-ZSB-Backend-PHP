@@ -17,7 +17,7 @@ Keyword for inheritance is  `extends`
 
 Library has some books ,
 
-all books written by the same author and also they all scientific books 
+all books written by the same author and also they all scientific books and some other properties.
 
 There is a class that gives information about each book of them ,instead of writing 
 
