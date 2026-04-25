@@ -29,7 +29,7 @@ Old version have some files like `contact.php` and `about.php` but in latest ver
 Clean URL like `example.com/users/profile` is better than
 
 
-`example.com/index.php?page=users&action=profile` as it is for MVC to deal with it ,also it makes it more readable for developers and companies.
+`example.com/index.php?page=users&action=profile` as it is not easy for MVC to deal with it ,also it makes it more readable for developers and companies.
 
 
 ***
