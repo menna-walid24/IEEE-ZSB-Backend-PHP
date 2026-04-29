@@ -28,7 +28,7 @@ Prepared Statements separate user data (input) and sql queries ,so that it preve
 When looking for one user to get his phone number for example .
 
 
-`select phone_number from users where name="x"
+`select phone_number from users where name="x"`
 
 
 **2-Multiple rows Example:**
